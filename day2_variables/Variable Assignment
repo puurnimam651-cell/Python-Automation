@@ -1,0 +1,17 @@
+# 1. Assigning different data types to variables
+user_name = "Alex"         
+user_age = 25              
+user_height = 5.9           
+is_learning = True        
+
+# 2. Printing variables using f-strings (available in Python 3.6+)
+print(f"Name: {user_name}")
+print(f"Age: {user_age}")
+
+# 3. Performing operations with variables
+next_year_age = user_age + 1
+print(f"Next year, {user_name} will be {next_year_age} years old.")
+
+# 4. Reassigning a variable to a different type (Dynamic Typing)
+user_age = "Twenty-six"     # age was an int, now it's a string
+print(f"Updated Age: {user_age}")
